@@ -1,0 +1,42 @@
+/* 2 / 2
+
+Sure, here are some additional CSS styles that can make the title more visually appealing: */
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  color: #333; /* change the color to something darker */
+  text-shadow: 1px 1px 0px #fff, 2px 2px 0px rgba(0, 0, 0, 0.1);
+  /* / add a subtle text shadow / */
+  letter-spacing: 2px; /* increase the letter spacing for more impact /
+transition: color 0.2s ease-in-out; / add a smooth color transition on hover */
+}
+
+.title:hover {
+  color: #666; /* change the color on hover */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.divider {
+  margin: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+}
+
+p {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .title:hover {
+    color: #999; /* change the color on hover for smaller screens */
+  }
+}
